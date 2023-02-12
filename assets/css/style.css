@@ -179,7 +179,7 @@ header .navbar ul li a:hover {
 /* hamburger icon ends */
 
 /* hero section starts*/
-.home {
+.home2 {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -187,14 +187,14 @@ header .navbar ul li a:hover {
   min-height: 100vh;
   align-items: center;
 }
-.home #particles-js {
+.home2 #particles-js {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
 }
-.home::before {
+.home2::before {
   content: "";
   position: absolute;
   top: 0;
@@ -202,48 +202,48 @@ header .navbar ul li a:hover {
   height: 100%;
   width: 100%;
 }
-.home .content {
+.home2 .content {
   flex: 1 1 40rem;
   padding-top: 1rem;
   z-index: 1;
 }
-.home .image {
+.home2 .image {
   flex: 1 1 40rem;
   z-index: 1;
 }
-.home .image img {
+.home2 .image img {
   width: 70%;
   margin-left: 6rem;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
-.home .image img:hover {
+.home2 .image img:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
-.home .content h2 {
+.home2 .content h2 {
   font-size: 5rem;
   font-weight: 800;
   color: #002057;
 }
-.home .content h2 span {
+.home2 .content h2 span {
   font-size: 5rem;
   font-weight: 800;
   color: #ff7b00;
 }
-.home .content p {
+.home2 .content p {
   font-size: 2.5rem;
   color: #000;
   font-weight: 600;
   padding: 1rem 0;
 }
-.home .content p span {
+.home2 .content p span {
   font-size: 2.5rem;
   color: rgb(148, 8, 8);
   font-weight: 600;
   padding: 1rem 0;
 }
-.home .btn {
+.home2 .btn {
   margin-top: 1rem;
   position: absolute;
   line-height: 0;
@@ -255,20 +255,20 @@ header .navbar ul li a:hover {
   box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
   font-family: "Nunito", sans-serif;
 }
-.home .btn span {
+.home2 .btn span {
   font-weight: 700;
   font-size: 1.7rem;
   letter-spacing: 0.1rem;
 }
-.home .btn i {
+.home2 .btn i {
   margin-left: 0.3rem;
   font-size: 1.5rem;
   transition: 0.3s;
 }
-.home .btn:hover {
+.home2 .btn:hover {
   background: #1a047e;
 }
-.home .btn:hover i {
+.home2 .btn:hover i {
   transform: translateX(5px);
 }
 /* social icons start */
@@ -320,19 +320,19 @@ header .navbar ul li a:hover {
 
 /* hero media queries starts*/
 @media (max-width: 450px) {
-  .home .btn {
+  .home22 .btn {
     margin: 4rem 0;
   }
   .socials {
     margin-top: 12rem;
   }
-  .home .image img {
+  .home22 .image img {
     margin-top: -12rem;
   }
-  .home .content p {
+  .home22 .content p {
     font-size: 2.2rem;
   }
-  .home .content p span {
+  .home22 .content p span {
     font-size: 2.2rem;
   }
 }
@@ -340,21 +340,21 @@ header .navbar ul li a:hover {
 /* hero section end */
 
 /* about section starts */
-.about {
+.about2 {
   background: rgb(255, 255, 255);
 }
-.about .row {
+.about2 .row {
   display: flex;
   flex-direction: row;
   gap: 2rem;
   flex-wrap: wrap;
   padding: 4rem;
 }
-.about .row .image {
+.about2 .row .image {
   text-align: center;
   flex: 1 1 35rem;
 }
-.about .row .image img {
+.about2 .row .image img {
   margin: 4rem;
   width: 30rem;
   height: auto;
@@ -363,41 +363,41 @@ header .navbar ul li a:hover {
   transition: 0.3s;
   cursor: pointer;
 }
-.about .row .image img:hover {
+.about2 .row .image img:hover {
   mix-blend-mode: normal;
 }
-.about .row .content {
+.about2 .row .content {
   flex: 1 1 45rem;
   padding: 3rem;
 }
-.about .row .content h3 {
+.about2 .row .content h3 {
   color: rgb(27, 27, 27);
   font-size: 2.5rem;
 }
-.about .row .content .tag {
+.about2 .row .content .tag {
   font-size: 1.4rem;
   color: #020133;
   font-weight: 600;
   margin-top: 1rem;
 }
-.about .row .content p {
+.about2 .row .content p {
   font-size: 1.5rem;
   margin-top: 1.5rem;
   font-family: "Nunito";
   font-weight: 600;
   text-transform: none;
 }
-.about .row .content .box-container {
+.about2 .row .content .box-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   font-family: "Nunito";
   font-weight: 600;
 }
-.about .row .content .box-container .box p {
+.about2 .row .content .box-container .box p {
   text-transform: none;
 }
-.about .row .content .box-container .box p span {
+.about2 .row .content .box-container .box p span {
   color: #011aff;
 }
 .resumebtn {
@@ -430,19 +430,19 @@ header .navbar ul li a:hover {
 }
 /* about media queries starts*/
 @media screen and (max-width: 600px) {
-  .about .row .image {
+  .about2 .row .image {
     margin-top: 2rem;
   }
-  .about .row .image img {
+  .about2 .row .image img {
     margin: 0 auto;
     width: 80%;
     mix-blend-mode: normal;
   }
-  .about .row {
+  .about2 .row {
     padding: 0.5rem;
     margin-bottom: 7rem;
   }
-  .about .row .content {
+  .about2 .row .content {
     padding: 1rem;
   }
   .about .row .content .box-container {
@@ -453,17 +453,17 @@ header .navbar ul li a:hover {
 /* about section ends */
 
 /* skills section starts */
-.skills {
+.skills2 {
   min-height: 90vh;
   background: linear-gradient(to bottom, #57059e, #4a00e0);
 }
-.skills h2 {
+.skills2 h2 {
   color: #fff;
 }
-.skills .heading span {
+.skills2 .heading span {
   color: rgb(255, 230, 0);
 }
-.skills .container {
+.skills2 .container {
   background: rgba(0, 0, 22, 0.4);
   color: #fff;
   border-radius: 1rem;
@@ -472,13 +472,13 @@ header .navbar ul li a:hover {
   margin: auto;
   margin-top: 2rem;
 }
-.skills .container .row {
+.skills2 .container .row {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   flex-wrap: wrap;
   gap: 1.8rem;
 }
-.skills .container .bar {
+.skills2 .container .bar {
   margin-bottom: 15px;
   padding: 10px;
   border-radius: 1rem;
@@ -486,21 +486,21 @@ header .navbar ul li a:hover {
   background: rgba(0, 0, 22, 0.9);
   transition: 0.2s;
 }
-.skills .container .bar:hover {
+.skills2 .container .bar:hover {
   box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
-.skills .container .bar .info {
+.skills2 .container .bar .info {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
   margin-top: 1rem;
 }
-.skills .container .bar .info i {
+.skills2 .container .bar .info i {
   font-size: 4rem;
 }
-.skills .container .bar .info span {
+.skills2 .container .bar .info span {
   font-size: 2rem;
   font-weight: 500;
   font-family: "Poppins";
@@ -508,43 +508,43 @@ header .navbar ul li a:hover {
 }
 /* skills media queries starts*/
    @media only screen and ( max-width : 620px) and ( min-width : 10px) {
-  .skills .container {
+  .skills2 .container {
     padding: 0;
     margin: 0;
   }
-  .skills .container .row {
+  .skills2 .container .row {
     grid-template-columns: repeat(2, 1fr);
     margin: 1rem;
     padding: 2rem 0.2rem 2rem 0.2rem;
     gap: 1rem;
   }
-  .skills .container {
+  .skills2 .container {
     margin-top: 5px;
     width: 100%;
   }
 }
    @media only screen and ( max-width : 800px) and ( min-width : 620px){
-  .skills .container {
+  .skills2 .container {
     padding: 0;
     margin: 0;
   }
-  .skills .container .row {
+  .skills2 .container .row {
     grid-template-columns: repeat(3, 1fr);
     margin: 1rem;
     padding: 2rem 0.2rem 2rem 0.2rem;
     gap: 1rem;
   }
-  .skills .container {
+  .skills2 .container {
     margin-top: 5px;
     width: 100%;
   }
 }
    @media only screen and ( max-width : 1000px) and ( min-width : 800px){
-  .skills .container {
+  .skills2 .container {
     padding: 0;
     margin: 0;
   }
-  .skills .container .row {
+  .skills2 .container .row {
     grid-template-columns: repeat(4, 1fr);
     margin: 1rem;
     padding: 2rem 0.2rem 2rem 0.2rem;
@@ -709,11 +709,11 @@ header .navbar ul li a:hover {
 
 
 /* contact section starts */
-.contact {
+.contact2 {
   background: #e5ecfb;
   min-height: 60vh;
 }
-.contact .container {
+.contact2 .container {
   max-width: 1050px;
   width: 100%;
   background: #fff;
@@ -721,22 +721,22 @@ header .navbar ul li a:hover {
   margin: 2rem 5rem;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
-.contact .container .content {
+.contact2 .container .content {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 2.5rem 2rem;
 }
-.contact .content .image-box {
+.contact2 .content .image-box {
   max-width: 60%;
   margin-left: 4rem;
 }
-.contact .content .image-box img {
+.contact2 .content .image-box img {
   width: 100%;
   height: 40rem;
   position: relative;
 }
-.contact .content form {
+.contact2 .content form {
   width: 45%;
   margin-right: 3.5rem;
 }
@@ -845,16 +845,16 @@ form .button-area {
 }
 /* contact section media queries starts */
 @media (max-width: 900px) {
-  .contact {
+  .contact2 {
     min-height: 70vh;
   }
-  .contact .container {
+  .contact2 .container {
     margin: 3rem 0 2rem 0;
   }
-  .contact .container .content {
+  .contact2 .container .content {
     padding: 18px 12px;
   }
-  .contact .content .image-box {
+  .contact2 .content .image-box {
     display: none;
   }
   .contact .content form {
@@ -1056,7 +1056,9 @@ form .button-area {
 #ddd{
   padding-left: 0px;
   }
-
+#contri2 img{
+  width: 100%;
+}
 }
    @media only screen and ( max-width : 800px) and ( min-width : 620px){
     #calendwer{
@@ -1081,6 +1083,9 @@ form .button-area {
   grid-template-columns: 1fr;
   width: 100%;
 
+}
+#contri2 img{
+  width: 100%;
 }
 
 }
@@ -1108,5 +1113,9 @@ form .button-area {
   grid-template-columns: 1fr;
   width: 100%;
 }
+#contri2 img{
+  width: 100%;
+}
 
    }
+

@@ -41,7 +41,7 @@
             <li><a class="nav-link projects" href="#projects">Work</a></li>
             <li><a class="nav-link contact" href="#contact">Contact</a></li>
             <!-- https://drive.google.com/file/d/1Nn2dEMxg_ZvXJR10Kd7J1P-fu54Umrjz/view?usp=sharing -->
-             <li><button id="resume-button-2" >
+             <li><button id="resume-button-1" >
             <a id="resume-link-1" href="Assets/Shubham_Bhati_Resume.pdf.pdf"
             download="Shubham_Bhati_Resume" 
        onclick="window.open('https://drive.google.com/file/d/1Nn2dEMxg_ZvXJR10Kd7J1P-fu54Umrjz/view?usp=sharing')"
@@ -159,16 +159,32 @@
       
    
  <div id="contri">
-      <div><a href="https://github.com/Shubh2-0/github-readme-stats">
-  <img  id="github-streak-stats" alt="7oSkaaa's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Shubh2-0&show_icons=true&count_private=true&theme=algolia&bg_color=0,000000,130F40&layout=compact&border_radius=10&hide_border=true" height="165px"/>
+
+
+      <div>
+        <a href="https://github.com/Shubh2-0/github-readme-stats">
+  <img  id="github-streak-stats" alt="7oSkaaa's Github Stats" width="440px" src="https://github-readme-stats.vercel.app/api?username=Shubh2-0&show_icons=true&count_private=true&theme=algolia&bg_color=0,000000,130F40&layout=compact&border_radius=10&hide_border=true" />
 </a> 
+         
+
 </div>
-        <div style="width: fit-content"> <img id="github-stats-card" alt="status github, commits, etc..." width="400px" src="https://github-readme-streak-stats.herokuapp.com/?user=shubh2-0&count_private=true&show_icons=true&custom_title=Github&theme=algolia&bg_color=0,000000,130F40&layout=compact&border_radius=10&hide_border=true"/>
-                                    </div>
+        <div style="width: fit-content"> 
+       <img id="github-stats-card" alt="status github, commits, etc..." width="460px" src="https://github-readme-streak-stats.herokuapp.com/?user=shubh2-0&count_private=true&show_icons=true&custom_title=Github&theme=algolia&hide_border=true&bg_color=0,000000,130F40&layout=compact&border_radius=10">  
+        </div>
+
  </div>
 
          <div id="contri2">  
-<img id="github-top-langs" alt="most used languages" width="400px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shubh2-0&count_private=true&theme=algolia&bg_color=0,000000,130F40&layout=compact&border_radius=8&hide_border=true&langs_count=20&hide=hack,swift,kotlin,objective-c"/> </div>
+<img id="github-top-langs" alt="most used languages" width="460px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shubh2-0&count_private=true&theme=algolia&bg_color=0,000000,130F40&layout=compact&border_radius=8&hide_border=true&langs_count=20&hide=hack,swift,kotlin,objective-c"/> </div>
+
+<div class="calendar react-activity-calendar tilt" id="calendwer">
+    <!-- Loading stuff -->
+    Loading the data just for you.
+</div>
+
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
 
 
     </section>
@@ -179,20 +195,21 @@
 
 <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
 
-<!-- <script>
+
+<script>
   let ni = "Shubh2-0"
-    GitHubCalendar(".calendar", "Shubh2-0");
+    GitHubCalendar(".react-activity-calendar", "Shubh2-0");
 
     // or enable responsive functionality:
-    GitHubCalendar(".calendar", "Shubh2-0", { responsive: true });
+    GitHubCalendar(".react-activity-calendar", "Shubh2-0", { responsive: true });
     // Use a proxy
-    GitHubCalendar(".calendar", "Shubh2-0", {
+    GitHubCalendar(".react-activity-calendar", "Shubh2-0", {
        proxy (ni) {
          return fetch(`https://your-proxy.com/github?user=${Shubh2-0}`)
        }
     }).then(r => r.text())
 </script>
- -->
+
 </section>
 <!-- skills section ends -->
 

@@ -159,9 +159,9 @@
  <div id="contri">
 
 
-      <div  id="github-streak-stats" >
+      <div>
         <a href="https://github.com/Shubh2-0/github-readme-stats">
-  <img alt="7oSkaaa's Github Stats" width="440px" src="https://github-readme-streak-stats.herokuapp.com/?user=shubh2-0&count_private=true&show_icons=true&custom_title=Github&theme=algolia&hide_border=true&bg_color=0,000000,130F40&layout=compact&border_radius=10" />
+  <img  id="github-streak-stats" alt="7oSkaaa's Github Stats" width="440px" src="https://github-readme-streak-stats.herokuapp.com/?user=shubh2-0&count_private=true&show_icons=true&custom_title=Github&theme=algolia&hide_border=true&bg_color=0,000000,130F40&layout=compact&border_radius=10" />
 </a> 
          
 
@@ -180,9 +180,9 @@
     <!-- Loading the data just for you. -->
 </div>
 
-<!-- <script
+<script
   src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
-</script> -->
+</script>
 
 
     </section>
@@ -201,8 +201,10 @@
     GitHubCalendar(".react-activity-calendar", "Shubh2-0", { responsive: true });
     // Use a proxy
     GitHubCalendar(".react-activity-calendar", "Shubh2-0", {
-
-}).then(r => r.text())
+       proxy (ni) {
+         return fetch(`https://your-proxy.com/github?user=${Shubh2-0}`)
+       }
+    }).then(r => r.text())
 </script> -->
 
 </section>

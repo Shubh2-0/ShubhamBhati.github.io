@@ -43,6 +43,6 @@
       "code": "https://github.com/Shubh2-0/Movie_Search_Application"
     },
         "highlights" : ["Used the Web Service REST API of the movie DB OMDB (The Movie Database).","User can sort the movies based on their ratings."]
-  },
+  }
 
 ]

@@ -39,8 +39,8 @@
     "image": "youtube",
      "stacks":"js,html,css,git,netlify,vscode",
     "links": {
-      "view": "https://glittery-crostata-94ff7d.netlify.app/",
-      "code": "https://github.com/Shubh2-0/Movie_Search_Application"
+      "view": "#",
+      "code": "https://github.com/Shubh2-0/Youtube-Clone"
     },
         "highlights" : ["Used the Web Service REST API of the movie DB OMDB (The Movie Database).","User can sort the movies based on their ratings."]
   }

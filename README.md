@@ -60,7 +60,7 @@
 
 
 ## Tools Used 🛠️
-<img src="assets/images/Skills/html.png" alt="skill" width="50" /> <img src="assets/images/Skills/css.png" alt="skill" width="50" /> <img src="assets/images/Skills/js.png" alt="skill" width="50" /> <img src="assets/images/Skills/github.png" alt="skill" width="50" /> <img src="assets/images/Skills/vscode.png" alt="skill" width="50" />
+<img src="assets/images/Skills/html.png" alt="skill" width="50" /> <img src="Assets/images/Skills/css.png" alt="skill" width="50" /> <img src="Assets/images/Skills/js.png" alt="skill" width="50" /> <img src="assets/images/Skills/github.png" alt="skill" width="50" /> <img src="Assets/images/Skills/vscode.png" alt="skill" width="50" />
 
 
 <br>

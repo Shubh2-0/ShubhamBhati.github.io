@@ -98,7 +98,7 @@ function showSkills(skills) {
         skillHTML += `
         <div class="bar">
               <div class="info skills-card">
-                <img class="skills-card-img" src=${skill.icon} alt="skill" width="50"/>
+                <img class="skills-card-img" src="Assets/images/Skills/${skill.icon}" alt="skill" width="50"/>
                 <span class="skills-card-name" >${skill.name}</span>
               </div>
             </div>`

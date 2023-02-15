@@ -1,66 +1,66 @@
 [
     {
         "name": "HTML",
-        "icon": "assets/images/Skills/html.png"
+        "icon": "Assets/images/Skills/html.png"
     },
     {
         "name": "CSS",
-        "icon": "assets/images/Skills/css.png"
+        "icon": "Assets/images/Skills/css.png"
     },
     {
         "name": "JavaScipt",
-        "icon": "assets/images/Skills/js.png"
+        "icon": "Assets/images/Skills/js.png"
     },
     {
         "name": "Java",
-        "icon": "assets/images/Skills/java.png"
+        "icon": "Assets/images/Skills/java.png"
     },
     {
         "name": "Spring Boot",
-        "icon": "assets/images/Skills/springboot.png"
+        "icon": "Assets/images/Skills/springboot.png"
     },
         {
         "name": "Node JS",
-        "icon": "assets/images/Skills/nodejs.png"
+        "icon": "Assets/images/Skills/nodejs.png"
     },
          {
         "name": "My SQL",
-        "icon": "assets/images/Skills/mysql.png"
+        "icon": "Assets/images/Skills/mysql.png"
     },
          {
         "name": "DSA",
-        "icon": "assets/images/Skills/dsa.png"
+        "icon": "Assets/images/Skills/dsa.png"
     },
     {
         "name": "Git",
-        "icon": "assets/images/Skills/git.png"
+        "icon": "Assets/images/Skills/git.png"
     },
     {
         "name": "Netlify",
-        "icon": "assets/images/Skills/netlify.png"
+        "icon": "Assets/images/Skills/netlify.png"
     },
     {
         "name": "VS Code",
-        "icon": "assets/images/Skills/vscode.png"
+        "icon": "Assets/images/Skills/vscode.png"
     },
     {
         "name": "Intellij IDEA",
-        "icon": "assets/images/Skills/intellij.png"
+        "icon": "Assets/images/Skills/intellij.png"
     },
 
       {
         "name": "GitHub",
-        "icon": "assets/images/Skills/github.png"
+        "icon": "Assets/images/Skills/github.png"
     },
       {
         "name": "Replit",
-        "icon": "assets/images/Skills/replit.png"
+        "icon": "Assets/images/Skills/replit.png"
     },
   
   
      {
         "name": "Eclipse",
-        "icon": "assets/images/Skills/eclipse.png"
+        "icon": "Assets/images/Skills/eclipse.png"
     }
     
 

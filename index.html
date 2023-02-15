@@ -41,8 +41,14 @@
             <li><a class="nav-link projects" href="#projects">Work</a></li>
             <li><a class="nav-link contact" href="#contact">Contact</a></li>
             <!-- https://drive.google.com/file/d/1Nn2dEMxg_ZvXJR10Kd7J1P-fu54Umrjz/view?usp=sharing -->
-             <li><a href="assets/Shubham_Bhati_Resume.pdf.pdf" download="Shubham_Bhati_Resume.pdf.pdf"  onclick="window.open('https://drive.google.com/file/d/1Nn2dEMxg_ZvXJR10Kd7J1P-fu54Umrjz/view?usp=sharing')">
-          Resume</a></li>
+             <li><button id="resume-button-2" >
+            <a id="resume-link-1" href="Assets/Shubham_Bhati_Resume.pdf.pdf"
+            download="Shubham_Bhati_Resume" 
+       onclick="window.open('https://drive.google.com/file/d/1Nn2dEMxg_ZvXJR10Kd7J1P-fu54Umrjz/view?usp=sharing')"
+             class="btn"><span>Resume</span>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+          </button></li>
             </ul>
         </nav>
 </header>
@@ -74,7 +80,7 @@
 
 
 <!-- about section starts -->
-<section class="about2 section" id="about">
+<section class="about about2 section" id="about">
     <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
     
     <div class="row">
@@ -99,13 +105,16 @@
             </div>
         </div>
     
-        <div class="resumebtn" id="resume-button-2">
+        <div class="resumebtn">
+          <button id="resume-button-2">
             <a id="resume-link-2" href="Assets/Shubham_Bhati_Resume.pdf.pdf"
             download="Shubham_Bhati_Resume" 
        onclick="window.open('https://drive.google.com/file/d/1Nn2dEMxg_ZvXJR10Kd7J1P-fu54Umrjz/view?usp=sharing')"
              class="btn"><span>Resume</span>
                 <i class="fas fa-chevron-right"></i>
             </a>
+          </button>
+            
         </div>
 
     </div>
@@ -259,7 +268,7 @@
           <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
           <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
   
-          <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+          <a href="#projects"><i class="fas fa-chevron-circle-right"></i> work</a>
     
       </div>
 

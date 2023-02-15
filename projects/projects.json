@@ -32,6 +32,17 @@
       "code": "https://github.com/Shubh2-0/Engagebay_Clone"
     },
         "highlights" : ["A Group Project of 4 developers build the website in 5 days","User can maintain thier data by using website module service"]
-  }
+  },
+   {
+    "name": "Youtube - Clone",
+    "desc": "TYouTube is a free video sharing website that makes it easy to watch online videos. You can even create and upload your own videos to share with others. Originally created in 2005, YouTube is now one of the most popular sites on the Web, with visitors watching around 6 billion hours of video every month.",
+    "image": "youtube",
+     "stacks":"js,html,css,git,netlify,vscode",
+    "links": {
+      "view": "https://glittery-crostata-94ff7d.netlify.app/",
+      "code": "https://github.com/Shubh2-0/Movie_Search_Application"
+    },
+        "highlights" : ["Used the Web Service REST API of the movie DB OMDB (The Movie Database).","User can sort the movies based on their ratings."]
+  },
 
 ]

@@ -1085,11 +1085,8 @@ form .button-area {
 }
 
    }
-
-
-   #resume-button-2{
-    background-color: white;
-   }
-   #resume-link-1{
-        background-color: white;
-   }
+#resume-button-1{
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}

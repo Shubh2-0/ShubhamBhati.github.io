@@ -4,7 +4,7 @@
     "name": "Movie Search Web Application",
     "desc": "This is a Web Application where user can search for any Movie in the search page and get the details of it like IMDB rating, Release Year, Genre.",
     "image": "movie",
-     "stacks":"js,html,css,git,netlify,vscode,restful",
+     "stacks":"js,html,css,git,netlify,vscode",
     "links": {
       "view": "https://glittery-crostata-94ff7d.netlify.app/",
       "code": "https://github.com/Shubh2-0/Movie_Search_Application"
